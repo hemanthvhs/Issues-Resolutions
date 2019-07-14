@@ -1,0 +1,26 @@
+1. Copy all the angular project files to the folder
+(eg: routingservice -> Folder Name
+		Files in the folder (e2e,src,.editorconfig,.gitignore,angular.json,package.json,package-lock.json,README.md,tsconfig.json,tslint.json)
+
+2. Open cmd , change the directoty ( Eg : cd /d D:\Hemanth Sharma\Angular\HandsOn\Examples\routingservice)
+
+3. enter the command : npm install
+
+4. After installing , you will find node_modules in the routingservice folder
+
+5. now in cmd , enter ng serve
+
+6.If you get the below error :
+	(ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: ';' expecte d.)
+
+This problem might arise due to version mismatch. To solve your problem you need to do following changes in your package.json file.
+
+
+  Steps to resolve :
+---------------------------------
+
+Step 1 : Go to package.json and modify "rxjs": "^6.0.0" to "rxjs": "6.0.0"
+
+Step 2 : If you are using rxjs-compat then you also need to do following in order to fixed the issue. change the rxjs-compat version from "rxjs-compat": "^6.2.2" to "rxjs-compat": "6.2.2"
+
+Step 3 : Run npm update in your project.

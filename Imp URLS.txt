@@ -1,0 +1,13 @@
+File Upload to SP :
+https://blogs.msdn.microsoft.com/uksharepoint/2013/04/20/uploading-files-using-the-rest-api-and-client-side-techniques/
+
+SP Rest API :
+http://michaelsoriano.com/understanding-sharepoint-rest-api-part-1-selecting-items/
+https://social.technet.microsoft.com/wiki/contents/articles/35796.sharepoint-2013-using-rest-api-for-selecting-filtering-sorting-and-pagination-in-sharepoint-list.aspx
+
+RxJS Operators :
+https://www.learnrxjs.io/
+https://netbasal.com/understanding-mergemap-and-switchmap-in-rxjs-13cf9c57c885
+https://medium.com/@luukgruijs/understanding-rxjs-map-mergemap-switchmap-and-concatmap-833fc1fb09ff
+
+
